@@ -19,7 +19,7 @@ Este projeto é um complemento aos estudos da [Formação Go da Alura](https://c
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/go-oop-studies.git](https://github.com/SEU_USUARIO/go-oop-studies.git)
+    git clone [https://github.com/doneres/go-learning-journey.git)
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
@@ -27,12 +27,7 @@ Este projeto é um complemento aos estudos da [Formação Go da Alura](https://c
     ```
 3.  **Execute um exemplo específico (ex: um arquivo `.go`):**
     ```bash
-    go run nome_do_arquivo.go
-    ```
-    Ou para compilar e executar:
-    ```bash
-    go build nome_do_arquivo.go
-    ./nome_do_arquivo
+    go run main.go
     ```
 
 ## Contribuição
@@ -45,4 +40,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Autor
 
-Seu Nome/Seu GitHub Username
+Douglas/doneres
