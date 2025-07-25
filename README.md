@@ -1,7 +1,3 @@
-# go-oop-studies
-
-## Descrição
-
 Este repositório é dedicado ao estudo e prática de conceitos de Orientação a Objetos (OOP) em Go (Golang). O conteúdo aqui desenvolvido faz parte da minha jornada de aprendizado na **Formação Go da Alura**, com foco em entender como aplicar padrões e princípios de OOP de forma idiomática em Go.
 
 ## O que você encontrará aqui
