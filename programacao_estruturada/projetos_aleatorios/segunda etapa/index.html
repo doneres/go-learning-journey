@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Rick and Morty</title>
+    <style>
+        body { font-family: 'Courier New', Courier, monospace; background-color: #0c1a26; color: #a2d2ff; text-align: center; }
+        h1 { color: #5eff5e; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .card { background-color: #1e3a4c; border-radius: 10px; padding: 15px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.5); }
+        .card img { max-width: 100%; border-radius: 5px; }
+        .card h2 { font-size: 1.2em; color: #bde0fe; }
+        .card p { font-size: 1em; }
+    </style>
+</head>
+<body>
+    <h1>Personagens de Rick and Morty</h1>
+    <div class="container">
+        {{range .Results}}
+        <div class="card">
+            <img src="{{.Image}}" alt="{{.Name}}">
+            <h2>{{.Name}}</h2>
+            <p>Status: {{.Status}}</p>
+        </div>
+        {{end}}
+    </div>
+</body>
+</html>
